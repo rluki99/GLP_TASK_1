@@ -7,10 +7,63 @@
 @import './layouts';
 @import './animations';
 
-body {
-    background-color: red;
+.article {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
 
     @include tablet {
-        background-color: purple;
+        padding-inline: 30px;
+    }
+
+    @include laptop {
+        padding-inline: 50px;
+    }
+
+	&__title {
+		text-transform: uppercase;
+		font-size: 42px;
+		margin-top: 10px;
+
+        @include tablet {
+            font-size: 48px;
+        }
+	}
+
+	&__subtitle {
+		text-transform: uppercase;
+		font-size: 22px;
+
+        @include tablet {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+	}
+
+    .article__text-line {
+        @include tablet {
+            font-size: 18px;
+        }
+
+        @include laptop {
+            font-size: 22px;
+        }
+    }
+
+	.article__text-line span {
+		color: red;
+	}
+
+    .article__ul-list, .article__ol-list {
+        margin-left: 35px;
+
+        @include tablet {
+            font-size: 18px;
+        }
+
+        @include laptop {
+            font-size: 22px;
+        }
     }
 }
