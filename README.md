@@ -1,5 +1,7 @@
 # GLP_TASK_1
 
+## demo : https://rluki99.github.io/GLP_TASK_1/
+
 ![obraz](https://github.com/rluki99/GLP_TASK_1/assets/120097849/b929b47f-3f1c-4864-bfba-e822ac1381ad)
 Desktop
 -----
